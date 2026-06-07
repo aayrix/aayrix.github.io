@@ -1,0 +1,4 @@
+baseURL = 'https://github.com/aayrix/aayrix.github.io.git'
+languageCode = 'en-us'
+theme = "hugo-PaperMod"
+title = 'My New Hugo Site'
