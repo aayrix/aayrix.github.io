@@ -15,12 +15,13 @@ ShowBreadCrumbs = true
 ShowCodeCopyButtons = true
 ShowWordCount = true
 ShowRssButtonInSectionTermList = true
+mainSections = ["posts"]
 
 author = "Aayrix"
 
 [params.homeInfoParams]
 Title = "Welcome to Aayrix"
-Content = "Tutorials on Linux, GitHub, Hugo, and developer tooling. Follow my work on [GitHub](https://github.com/aayrix)."
+Content = "Practical developer guides with copy-paste commands. Explore [Posts](/posts/), browse [Tags](/tags/), or follow me on [GitHub](https://github.com/aayrix)."
 
 [[params.socialIcons]]
 name = "github"
@@ -43,22 +44,28 @@ url = "/posts/"
 weight = 2
 
 [[menu.main]]
-identifier = "projects"
-name = "Projects"
-url = "/projects/"
+identifier = "tags"
+name = "Tags"
+url = "/tags/"
 weight = 3
+
+[[menu.main]]
+identifier = "categories"
+name = "Categories"
+url = "/categories/"
+weight = 4
 
 [[menu.main]]
 identifier = "about"
 name = "About"
 url = "/about/"
-weight = 4
+weight = 5
 
 [[menu.main]]
 identifier = "contact"
 name = "Contact"
 url = "/contact/"
-weight = 5
+weight = 6
 
 [markup]
   [markup.goldmark.renderer]
