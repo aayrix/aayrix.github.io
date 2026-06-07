@@ -1,8 +1,12 @@
 +++
 title = "Posts"
-description = "All tutorials, guides, and articles on Linux, GitHub, Hugo, and developer tooling."
+description = "Step-by-step tutorials on Linux, GitHub, Hugo, and developer tooling — with copy-paste commands."
 +++
 
-Browse every post on this blog. Each guide includes copy-paste commands and step-by-step instructions.
+<div class="page-intro">
 
-Looking for a specific topic? Use the **[Tags](/tags/)** or **[Categories](/categories/)** pages to filter posts.
+Every article is a complete walkthrough: prerequisites, commands, and short explanations of what each step does.
+
+Filter by topic on the **[Tags](/tags/)** page or browse **[Categories](/categories/)** to find guides by subject.
+
+</div>

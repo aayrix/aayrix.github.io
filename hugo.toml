@@ -2,6 +2,8 @@ baseURL = "https://aayrix.github.io/"
 languageCode = "en-us"
 title = "Aayrix"
 theme = "hugo-PaperMod"
+summaryLength = 30
+enableRobotsTXT = true
 
 [pagination]
 pagerSize = 5
@@ -20,8 +22,8 @@ mainSections = ["posts"]
 author = "Aayrix"
 
 [params.homeInfoParams]
-Title = "Welcome to Aayrix"
-Content = "Practical developer guides with copy-paste commands. Explore [Posts](/posts/), browse [Tags](/tags/), or follow me on [GitHub](https://github.com/aayrix)."
+Title = "Developer Guides & Tutorials"
+Content = "Linux, GitHub, Hugo — practical walkthroughs with real commands. Built by [Aayrix](https://github.com/aayrix)."
 
 [[params.socialIcons]]
 name = "github"

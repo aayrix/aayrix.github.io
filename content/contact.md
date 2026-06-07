@@ -4,14 +4,19 @@ description = "Get in touch with Aayrix via GitHub."
 ShowToc = false
 +++
 
-The best way to reach me is through **GitHub**.
+<div class="page-intro">
+
+The best way to reach me is on **GitHub** — open an issue, send a pull request, or star a project.
+
+</div>
 
 ## GitHub
 
 - **Profile:** [github.com/aayrix](https://github.com/aayrix)
-- **Open an issue** on any of my repositories for bugs or questions
-- **Pull requests** are welcome on open-source projects
+- **Issues** — report bugs or ask questions on any repository
+- **Pull requests** — contributions welcome on open-source work
 
-## Blog
+## Explore the Blog
 
-Explore tutorials on the **[Posts](/posts/)** page or browse by **[Tags](/tags/)**.
+- **[All Posts](/posts/)** — tutorials and guides
+- **[Tags](/tags/)** — find content by topic
