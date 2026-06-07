@@ -1,11 +1,1 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
-  <channel>
-    <title>Categories on My New HUGO Site</title>
-    <link>https://aayrix.github.io/categories/</link>
-    <description>Recent content in Categories on My New HUGO Site</description>
-    <generator>Hugo</generator>
-    <language>en-us</language>
-    <atom:link href="https://aayrix.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Categories on Aayrix</title><link>https://aayrix.github.io/categories/</link><description>Recent content in Categories on Aayrix</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sat, 06 Jun 2026 10:00:00 +0500</lastBuildDate><atom:link href="https://aayrix.github.io/categories/index.xml" rel="self" type="application/rss+xml"/><item><title>Linux</title><link>https://aayrix.github.io/categories/linux/</link><pubDate>Sat, 06 Jun 2026 10:00:00 +0500</pubDate><guid>https://aayrix.github.io/categories/linux/</guid><description/></item><item><title>Tutorials</title><link>https://aayrix.github.io/categories/tutorials/</link><pubDate>Sat, 06 Jun 2026 10:00:00 +0500</pubDate><guid>https://aayrix.github.io/categories/tutorials/</guid><description/></item><item><title>GitHub</title><link>https://aayrix.github.io/categories/github/</link><pubDate>Fri, 05 Jun 2026 10:00:00 +0500</pubDate><guid>https://aayrix.github.io/categories/github/</guid><description/></item><item><title>Hugo</title><link>https://aayrix.github.io/categories/hugo/</link><pubDate>Thu, 04 Jun 2026 10:00:00 +0500</pubDate><guid>https://aayrix.github.io/categories/hugo/</guid><description/></item><item><title>Introduction</title><link>https://aayrix.github.io/categories/introduction/</link><pubDate>Mon, 01 Jun 2026 10:00:00 +0500</pubDate><guid>https://aayrix.github.io/categories/introduction/</guid><description/></item></channel></rss>

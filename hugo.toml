@@ -19,8 +19,8 @@ ShowRssButtonInSectionTermList = true
 author = "Aayrix"
 
 [params.homeInfoParams]
-Title = "Welcome to My Website"
-Content = "Blogs, projects, coding, and thoughts."
+Title = "Welcome to Aayrix"
+Content = "Tutorials on Linux, GitHub, Hugo, and developer tooling. Follow my work on [GitHub](https://github.com/aayrix)."
 
 [[params.socialIcons]]
 name = "github"
@@ -61,5 +61,7 @@ url = "/contact/"
 weight = 5
 
 [markup]
+  [markup.goldmark.renderer]
+    unsafe = true
   [markup.highlight]
     noClasses = false
