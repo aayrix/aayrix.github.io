@@ -4,11 +4,15 @@ title = "Aayrix"
 theme = "hugo-PaperMod"
 summaryLength = 30
 enableRobotsTXT = true
+copyright = "© {year} Aayrix. All rights reserved."
 
 [pagination]
 pagerSize = 5
 
 [params]
+env = "production"
+description = "Aayrix by Aliyan — technical documentation for Linux, GitHub, Hugo, and developer tooling. Computer Science student at FAST NUCES sharing practical, copy-ready guides."
+keywords = ["Linux", "GitHub", "Hugo", "developer tutorials", "technical documentation", "Arch Linux", "Ubuntu"]
 defaultTheme = "dark"
 ShowReadingTime = true
 ShowShareButtons = true
@@ -19,19 +23,22 @@ ShowWordCount = true
 ShowRssButtonInSectionTermList = true
 mainSections = ["posts"]
 
-author = "Aayrix"
+author = "Aliyan"
 
 [params.homeInfoParams]
-Title = "Developer Guides & Tutorials"
-Content = "Linux, GitHub, Hugo — practical walkthroughs with real commands. Built by [Aayrix](https://github.com/aayrix)."
+Title = "Technical Documentation & Developer Guides"
+Content = "Hi, I'm **Aliyan** — a Computer Science student at FAST NUCES and the author behind [Aayrix](https://github.com/aayrix). I write production-ready tutorials for Linux, GitHub, and static site engineering."
+
+[params.footer]
+hideCopyright = false
 
 [[params.socialIcons]]
 name = "github"
 url = "https://github.com/aayrix"
 
 [[params.socialIcons]]
-name = "linkedin"
-url = "https://linkedin.com"
+name = "email"
+url = "mailto:aliyanniazi370@gmail.com"
 
 [[menu.main]]
 identifier = "home"
@@ -41,7 +48,7 @@ weight = 1
 
 [[menu.main]]
 identifier = "posts"
-name = "Posts"
+name = "Publications"
 url = "/posts/"
 weight = 2
 
@@ -59,7 +66,7 @@ weight = 4
 
 [[menu.main]]
 identifier = "about"
-name = "About"
+name = "About Me"
 url = "/about/"
 weight = 5
 

@@ -1,9 +1,21 @@
 :root {
-    --accent: #6c9eff;
-    --accent-soft: rgba(108, 158, 255, 0.12);
-    --accent-border: rgba(108, 158, 255, 0.35);
-    --card-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
-    --card-shadow-hover: 0 8px 24px rgba(0, 0, 0, 0.12);
+    --accent: #4f8cff;
+    --accent-soft: rgba(79, 140, 255, 0.1);
+    --accent-border: rgba(79, 140, 255, 0.3);
+    --card-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+    --card-shadow-hover: 0 6px 20px rgba(0, 0, 0, 0.1);
+    --font-sans: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+}
+
+body {
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.header .logo a {
+    font-weight: 700;
+    letter-spacing: -0.03em;
 }
 
 [data-theme="dark"] {
@@ -68,13 +80,11 @@
 }
 
 .home-info .entry-header h1 {
-    font-size: clamp(1.75rem, 4vw, 2.25rem);
+    font-size: clamp(1.6rem, 3.5vw, 2rem);
     font-weight: 700;
-    letter-spacing: -0.02em;
-    background: linear-gradient(135deg, var(--primary) 0%, var(--accent) 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
+    letter-spacing: -0.03em;
+    color: var(--primary);
+    line-height: 1.25;
 }
 
 .home-info .entry-content {
@@ -128,8 +138,42 @@
 .home-hero img {
     width: 100%;
     display: block;
-    max-height: 300px;
+    max-height: 280px;
     object-fit: cover;
+}
+
+/* ── Home stats bar ─────────────────────────── */
+.home-stats {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    margin-bottom: 2.5rem;
+    padding: 1.25rem 0;
+    border-top: 1px solid var(--border);
+    border-bottom: 1px solid var(--border);
+}
+
+.home-stat {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 0.25rem;
+}
+
+.home-stat-value {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--accent);
+    letter-spacing: -0.02em;
+}
+
+.home-stat-label {
+    font-size: 0.75rem;
+    font-weight: 500;
+    color: var(--secondary);
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
 }
 
 .section-header {
@@ -357,6 +401,43 @@
     color: var(--accent);
 }
 
+/* ── About profile ──────────────────────────── */
+.about-profile {
+    margin-bottom: 2rem;
+    padding: 1.75rem 2rem;
+    border-radius: calc(var(--radius) + 4px);
+    background: linear-gradient(135deg, var(--entry) 0%, var(--accent-soft) 100%);
+    border: 1px solid var(--accent-border);
+    box-shadow: var(--card-shadow);
+}
+
+.about-profile h2 {
+    margin: 0 0 0.35rem !important;
+    font-size: 1.75rem;
+    font-weight: 700;
+    letter-spacing: -0.03em;
+    color: var(--primary);
+    border: none !important;
+    padding: 0 !important;
+}
+
+.about-profile-text p {
+    margin: 0.5rem 0 0;
+    font-size: 0.95rem;
+    line-height: 1.75;
+    color: var(--content);
+}
+
+.about-profile-text strong {
+    display: block;
+    font-size: 0.82rem;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: var(--accent);
+    margin-bottom: 0.75rem;
+}
+
 /* ── Section page intros ────────────────────── */
 .page-intro {
     margin-bottom: 2rem;
@@ -404,10 +485,107 @@
     color: var(--accent);
 }
 
+/* ── Contact page ───────────────────────────── */
+.contact-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    gap: 1rem;
+    margin: 2rem 0;
+}
+
+.contact-card {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding: 1.5rem;
+    border: 1px solid var(--border);
+    border-radius: calc(var(--radius) + 2px);
+    background: var(--entry);
+    box-shadow: var(--card-shadow);
+}
+
+.contact-card-primary {
+    border-color: var(--accent-border);
+    background: linear-gradient(135deg, var(--entry) 0%, var(--accent-soft) 100%);
+}
+
+.contact-card-label {
+    font-size: 0.7rem;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--accent);
+}
+
+.contact-card-title {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: var(--primary);
+    letter-spacing: -0.01em;
+}
+
+.contact-card-desc {
+    margin: 0;
+    font-size: 0.86rem;
+    color: var(--secondary);
+    line-height: 1.55;
+    flex-grow: 1;
+}
+
+.contact-card-link {
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: var(--accent);
+    text-decoration: none;
+    margin-top: 0.25rem;
+    word-break: break-all;
+}
+
+.contact-card-link:hover {
+    text-decoration: underline;
+}
+
+/* ── Tables (about, contact) ────────────────── */
+.post-content table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1.25rem 0;
+    font-size: 0.9rem;
+}
+
+.post-content table th,
+.post-content table td {
+    padding: 0.65rem 0.85rem;
+    border: 1px solid var(--border);
+    text-align: left;
+}
+
+.post-content table th {
+    background: var(--entry);
+    font-weight: 600;
+    color: var(--primary);
+}
+
+/* ── Footer email link ──────────────────────── */
+.footer a {
+    color: var(--secondary);
+    transition: color 0.2s ease;
+}
+
+.footer a:hover {
+    color: var(--accent);
+}
+
 /* ── Responsive ─────────────────────────────── */
 @media (max-width: 600px) {
-    .home-cards {
+    .home-cards,
+    .contact-grid {
         grid-template-columns: 1fr;
+    }
+
+    .home-stats {
+        grid-template-columns: 1fr;
+        gap: 1.25rem;
     }
 
     .home-cta {

@@ -1,10 +1,10 @@
 +++
 title = "Categories"
-description = "Tutorials grouped by subject — Linux, GitHub, Hugo, and more."
+description = "Technical documentation organized by subject area and domain."
 +++
 
 <div class="page-intro">
 
-Categories organize guides into broader subjects. Pick a category to explore related tutorials.
+Categories group publications into broad technical domains. Select a category to explore related guides and tutorials.
 
 </div>

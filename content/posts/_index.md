@@ -1,12 +1,12 @@
 +++
-title = "Posts"
-description = "Step-by-step tutorials on Linux, GitHub, Hugo, and developer tooling — with copy-paste commands."
+title = "Publications"
+description = "Technical documentation and step-by-step guides for Linux, GitHub, Hugo, and developer tooling."
 +++
 
 <div class="page-intro">
 
-Every article is a complete walkthrough: prerequisites, commands, and short explanations of what each step does.
+This section contains complete technical publications. Each guide includes prerequisites, verified commands, and structured explanations suitable for production environments.
 
-Filter by topic on the **[Tags](/tags/)** page or browse **[Categories](/categories/)** to find guides by subject.
+Browse by **[Tags](/tags/)** or **[Categories](/categories/)** to locate documentation by technology or subject area.
 
 </div>
